@@ -18,7 +18,7 @@ rackup
 Go to [Yad2](http://yad2.co.il), filter your ads using the search and copy the query parameter.
 
 Your RSS feed will be constructed as follow:  
-`http://localhost:9292/<ad_type>?<query_parameters>`.
+`http://localhost:9292/yad2/<ad_type>?<query_parameters>`.
 
 Where:
 
@@ -27,7 +27,7 @@ Where:
 
 For example, the RSS url for [this](http://www.yad2.co.il/Nadlan/rent.php?AreaID=&City=&HomeTypeID=&fromRooms=&untilRooms=&fromPrice=100&untilPrice=200&PriceType=1&FromFloor=&ToFloor=&EnterDate=&Info=)
 search is:
-`http://localhost:9292/rent?AreaID=&City=&HomeTypeID=&fromRooms=&untilRooms=&fromPrice=100&untilPrice=200&PriceType=1&FromFloor=&ToFloor=&EnterDate=&Info=`
+`http://localhost:9292/yad2/rent.rss?AreaID=&City=&HomeTypeID=&fromRooms=&untilRooms=&fromPrice=100&untilPrice=200&PriceType=1&FromFloor=&ToFloor=&EnterDate=&Info=`
 
 
 Use your favorite news reader to serve it.
