@@ -18,7 +18,7 @@ rackup
 Go to [Yad2](http://yad2.co.il), filter your ads using the search and copy the query parameter.
 
 Your RSS feed will be constructed as follow:  
-`http://localhost:9292/yad2/<ad_type>?<query_parameters>`.
+`http://localhost:9292/yad2/<ad_type>.rss?<query_parameters>`.
 
 Where:
 
